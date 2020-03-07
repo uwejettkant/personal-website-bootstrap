@@ -3,9 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <div></div>
+    <header class="text-warning text-center bg-dark p-4 mx-0 d-block d-md-none">
+    <h1>Uwe Jettkant</h1>
+    <nav class="nav justify-content-center">
+            <a class="nav-link active text-warning" href="#">Kontakt</a>
+            <a class="nav-link text-warning" href="#">Biografie</a>
+    </nav>
+</header>
+
+<!-- media query -->
+
+ <header class="text-warning bg-dark p-4 mx-0 d-none d-md-block">
+        <div class="d-flex flex-row justify-content-between">
+        <div>
+        <h1>Uwe Jettkant</h1>
+        </div>
+        <div>
+        <nav class="nav">
+            <a class="nav-link active text-warning" href="#">Kontakt</a>
+            <a class="nav-link text-warning" href="#">Biografie</a>
+        </nav>
+        </div>
+        </div>
+</header>
+
+<div class="px-5 pb-3 bg-dark text-warning">
+    <main class="d-block d-md-none">
+        <img src="/image/foto.jpg" class="img-fluid rounded-circle mt-5" alt="Responsive image">
+        <p class="my-5 text-center">Ich bin Spezialist für Webentwicklung und UX Design.</p>
+
+        <div class="font-weight-bold">
+        <h2 class="text-center m-4">Skills</h2>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-end">
+                <span class="badge badge-warning p-3">HTML</span>
+            </div>
+            <div class="col-6">
+                <span class="badge badge-warning p-3">CSS</span>
+            </div>
+        <div class="row m-2">
+            <div class="col-4">
+                <span class="badge badge-warning p-3">JAVASPRIPT</span>
+            </div>
+            <div class="col-4 ">
+                <span class="badge badge-warning p-3 w-100">REACT</span>
+            </div>
+            <div class="col-4">
+                <span class="badge badge-warning p-3">NODE.JS</span>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- media query main -->
+
+    <main class="d-none d-md-block">
+        <img src="/image/foto.jpg" class="img-fluid rounded-circle mt-5" alt="Responsive image">
+        <p class="my-5 text-center">Ich bin Spezialist für Webentwicklung und UX Design.</p>
+
+        <div class="font-weight-bold">
+        <h2 class="text-center m-4">Skills</h2>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-end">
+                <span class="badge badge-warning p-3">HTML</span>
+            </div>
+            <div class="col-6">
+                <span class="badge badge-warning p-3">CSS</span>
+            </div>
+        <div class="row m-2">
+            <div class="col-4">
+                <span class="badge badge-warning p-3">JAVASPRIPT</span>
+            </div>
+            <div class="col-4 ">
+                <span class="badge badge-warning p-3 w-100">REACT</span>
+            </div>
+            <div class="col-4">
+                <span class="badge badge-warning p-3">NODE.JS</span>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <div class="text-center">
+        <h2 class="my-5">Kontakt</h2>
+        <h4>Mobil Nr.</h4>
+        <p>01732404622</p>
+        <h4>Email</h4>
+        <p>ujettkant@gmail</p>
+    </div>
+
+    <section class="d-md-none">
+        <div class="card my-5 bg-warning" style="w-100">
+            <img src="/image/github.png" class="card-img-top" alt="Responsive image by unspalash">
+            <div class="card-body text-dark">
+              <h5 class="card-title">Github</h5>
+              <p>Mein Guthub Profil findest du hier. Klick the Button.</p>
+              <a href="https://github.com/" class="btn btn-dark stretched-link text-warning">Go To Github</a>
+            </div>
+          </div>
+    
+        <div class="card bg-warning" style="w-100">
+            <img src="/image/code.jpg" class="card-img-top" alt="Responsive image by unspalash">
+            <div class="card-body text-dark">
+              <h5 class="card-title">Codepen</h5>
+              <p>WMein Guthub Profil findest du hier. Klick the Button.</p>
+              <a href="https://codepen.io/" class="btn btn-dark stretched-link text-warning">Go To Codepen</a>
+            </div>
+          </div>
+          <div class="card my-5 bg-warning" style="w-100">
+            <img src="/image/linkedin.png" class="card-img-top" alt="Responsive image by unspalash">
+            <div class="card-body text-dark">
+              <h5 class="card-title">Linkedin</h5>
+              <p>Mein Linkedin Profil findest du hier. Klick the Button.</p>
+              <a href="https://de.linkedin.com/" class="btn btn-dark stretched-link text-warning">Go To Linkedin</a>
+            </div>
+          </div>
+    </section>
+    <section>
+
+       <!-- <div class="my-5">
+            <h2 class="text-center pb-3 ">Über Mich</h2>
+            <p>Ich bin an der Ostsee groß geworden, bis es mich vor ca. 15 Jahren nach Hamburg gezogen hat. Dem Wasser bin ich in der Hansestadt ja treu geblieben.</p>
+            <p>
+            Lange Zeit war ich in der Welt von Containern und Schiffen zu Hause. Mit dieser logistischen Erfahrung habe ich mich auf die digitale Welt spezialisiert und bin nun Ihr Ansprechpartner für Projeklte in der Webentwicklung.</p> 
+            
+            <p>Meine Neugier und die Fähigkeit die richtigen Fragen zu stellen gewährleistet das entwickeln qualittiv hochwertiger Software Produkte.
+            Mein Prortfolio könnt Ihr Euch gerne auf meinen Github Account annsehen.    
+            </p>
+        </div> -->
+
+        <div class="card mb-5" style="w-100">
+            <div class="card-body bg-dark text-warning">
+              <h5 class="card-title text-center font-weight-bold">Über Mich</h5>
+              <p>Ich bin an der Ostsee groß geworden, bis es mich vor ca. 15 Jahren nach Hamburg gezogen hat. Dem Wasser bin ich in der Hansestadt ja treu geblieben.</p>
+            <p>
+            Lange Zeit war ich in der Welt von Containern und Schiffen zu Hause. Mit dieser logistischen Erfahrung habe ich mich auf die digitale Welt spezialisiert und bin nun Ihr Ansprechpartner für Projeklte in der Webentwicklung.</p> 
+            
+            <p>Meine Neugier und die Fähigkeit die richtigen Fragen zu stellen gewährleistet das entwickeln qualittiv hochwertiger Software Produkte.
+            Mein Prortfolio könnt Ihr Euch gerne auf meinen Github Account annsehen.    
+            </p>
+            </div>
+          </div>
+
+        <div class="card mb-5 bg-dark text-dark" style="w-100">
+            <div class="card-header">
+              <h5 class="text-center font-weight-bold">Biografie</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-warning">Geburtsdatum: 22.01.1982</li>
+              <li class="list-group-item bg-warning">Geburtsort: Kühlungsborn</li>
+              <li class="list-group-item bg-warning">1988 - 2002: Abitur</li>
+              <li class="list-group-item bg-warning">2002 - 2006: Bundeswehr</li>
+              <li class="list-group-item bg-warning">2006 - 2008: Studium Medizintechnik (abgebrochen)</li>
+              <li class="list-group-item bg-warning">2008 - 2010: Ausbildung - Kaufmann Logistikdienstleistung</li>
+              <li class="list-group-item bg-warning">2010 - 2019: Logistik</li>
+              <li class="list-group-item bg-warning">2020: Web-Entwickler</li>
+            </ul>
+          </div>
+    </section>
+
+</div>
+    <footer class="bg-dark p-4 text-warning">
+        <p>copyight</p>
+    </footer>
 </body>
 </html>
