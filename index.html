@@ -13,8 +13,8 @@
     <header class="text-warning text-center bg-dark p-4 mx-0 d-block d-md-none">
     <h1>Uwe Jettkant</h1>
     <nav class="nav justify-content-center">
-            <a class="nav-link active text-warning" href="#">Kontakt</a>
-            <a class="nav-link text-warning" href="#">Biografie</a>
+            <a class="nav-link active text-warning" href="#Kontakt">Kontakt</a>
+            <a class="nav-link text-warning" href="#Bio">Biografie</a>
     </nav>
 </header>
 
@@ -47,7 +47,7 @@
 
     </main>
     <div class="text-center d-block d-md-none">
-        <h2 class="my-5">Kontakt</h2></a>
+        <h2 id="Kontakt" class="my-5"><h2>Kontakt</h2>
         <h4>Mobil Nr.</h4>
         <p>01732404622</p>
         <h4>Email</h4>
@@ -99,7 +99,7 @@
 
         <div class="card mb-5 bg-dark text-warning border-dark" style="w-100">
             <div class="card-header bg-dark border-dark">
-              <h5 class="text-center font-weight-bold">Biografie</h5>
+              <h5 id="Bio" class="text-center font-weight-bold">Biografie</h5>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item bg-dark border-dark">Geburtsdatum: 22.01.1982</li>
@@ -138,39 +138,24 @@
 <div class="px-5 pb-3 bg-dark text-warning d-none d-md-block">
     <main class=" w-75 m-auto pt-5">
         <div class="row">
-        <div class="col-4 mr-4">
+        <div class="col-6 mr-4 mb-5">
         <img src="/image/profile1.jpg" class="img-fluid border-rounded border-dark" alt="Responsive image">
         <p class="text-center mt-3">Ich bin Spezialist für Webentwicklung und UX Design.</p>
         </div>
 
-        <div class="col wrapper">
-        <div class="row">    
-        <div class="col-12 font-weight-bold text-center align-self-center">
-            <h2>Skills</h2>
-        </div>
-        </div>
-        <div class="row my-5">
-            <div class="col-6 d-flex justify-content-end">
-                <span class="badge badge-warning p-2">HTML</span>
-            </div>
-            <div class="col-6">
-                <span class="badge badge-warning p-2">CSS</span>
-            </div>
-        </div>    
-        <div class="row my-5">
-            <div class="col-4">
-                <span class="badge badge-warning p-2">JAVASPRIPT</span>
-            </div>
-            <div class="col-4">
-                <span class="badge badge-warning p-2">REACT</span>
-            </div>
-            <div class="col-4">
-                <span class="badge badge-warning p-2">NODE.JS</span>
-            </div>
-
-        </div>
-        </div>
-        </div> 
+        <div class="col wrapper mb-5">
+            <div class=" col card bg-dark border-dark text-warning" style="w-100">
+                <div class="card-header bg-dark border-dark">
+                  <h2 class="text-center font-weight-bold">SKILLS</h2>
+                </div>
+                <ul class="list-group list-group-flush text-center">
+                  <li class="list-group-item bg-dark border-dark">HTML</li>
+                  <li class="list-group-item bg-dark border-dark">CSS</li>
+                  <li class="list-group-item bg-dark border-dark">JAVASKRIPT</li>
+                  <li class="list-group-item bg-dark border-dark">REACT</li>
+                  <li class="list-group-item bg-dark border-dark">NODE.JS</li>
+                </ul>
+              </div>
     </main>
     
     <div class="w-75 m-auto text-center my-5">
